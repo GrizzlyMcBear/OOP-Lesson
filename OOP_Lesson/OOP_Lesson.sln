@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main\Main.csproj", "{F8092D47-3442-425D-988F-5309356D5EA3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{821B7DFD-26D4-486B-8F04-17BD64F934FE} = {821B7DFD-26D4-486B-8F04-17BD64F934FE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vehicles", "Animals\Vehicles\Vehicles.csproj", "{821B7DFD-26D4-486B-8F04-17BD64F934FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8092D47-3442-425D-988F-5309356D5EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8092D47-3442-425D-988F-5309356D5EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8092D47-3442-425D-988F-5309356D5EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8092D47-3442-425D-988F-5309356D5EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821B7DFD-26D4-486B-8F04-17BD64F934FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821B7DFD-26D4-486B-8F04-17BD64F934FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821B7DFD-26D4-486B-8F04-17BD64F934FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821B7DFD-26D4-486B-8F04-17BD64F934FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5933545-2787-4F9D-8A4F-91B1584CA7C3}
+	EndGlobalSection
+EndGlobal
